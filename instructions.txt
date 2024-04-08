@@ -1,0 +1,12 @@
+Rust package creation using cargo
+
+cargo new package_name
+
+cargo is the build system
+new tells the packager we want a new package
+package_name is the name we will give the new package
+
+once in the directory of package_name
+
+cargo build -> builds the package
+cargo run -> runs the package
