@@ -57,6 +57,23 @@ fn main() {
     //     println!("{number}!");
     // }
     // println!("LIFTOFF!!!");
+
+    // let mut s = String::from("hello");
+    // println!("{s} is the string");
+    // s.push_str(", world!");
+    // println!("{s} is the string");
+
+    // let s1 = String::from("hello");
+    // let (s2, len) = calculate_length(s1);
+    // println!("{s1} original string!");  //-> error here because we hand off s1
+    // println!("The length of '{s2}' is {len}");
+}
+
+fn calculate_length(s:String) -> (String, usize) {
+    let length = s.len();
+
+    (s, length)
+    // (s.clone(), s.len())
 }
 
 fn another_function(x:i32, c:char) -> i32 {
